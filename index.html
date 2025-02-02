@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>I'm Sorry, My Love</title>
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      background-color: #8B4513; /* Brown background */
+      color: #FFF8DC; /* Light text color */
+      text-align: center;
+      padding: 50px;
+      margin: 0;
+    }
+    .container {
+      max-width: 600px;
+      margin: 0 auto;
+      padding: 20px;
+      background-color: rgba(255, 255, 255, 0.1); /* Semi-transparent white background */
+      border-radius: 15px;
+      box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+    }
+    h1 {
+      font-size: 3rem;
+      color: #FFD700; /* Gold color for heading */
+    }
+    p {
+      font-size: 1.5rem;
+      line-height: 1.6;
+    }
+    .photo {
+      width: 200px;
+      height: 200px;
+      border-radius: 50%;
+      border: 5px solid #FFD700; /* Gold border */
+      margin: 20px auto;
+      overflow: hidden;
+    }
+    .photo img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+    .sunflower {
+      font-size: 4rem;
+      color: #FFD700; /* Gold color for sunflower */
+      margin: 20px 0;
+      animation: spin 4s linear infinite;
+    }
+    @keyframes spin {
+      0% { transform: rotate(0deg); }
+      100% { transform: rotate(360deg); }
+    }
+    button {
+      background-color: #FFD700; /* Gold button */
+      color: #8B4513; /* Brown text */
+      border: none;
+      padding: 15px 30px;
+      font-size: 1.2rem;
+      cursor: pointer;
+      border-radius: 5px;
+      margin-top: 20px;
+    }
+    button:hover {
+      background-color: #FFC300; /* Lighter gold on hover */
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <h1>I'm So Sorry, My Love 🌻</h1>
+    <div class="sunflower">🌻</div>
+    <div class="photo">
+      <img src="mylove.jpg" alt="Our picture"> 
+    </div>
+    <p>
+      I know I messed up, and I deeply regret it. You mean the world to me, and I can't imagine my life without you. Please forgive me. I promise to do better and make it up to you.
+    </p>
+    <p>
+      You are my everything, and I love you more than words can express. Let's move past this together lablab ;(.
+    </p>
+    <button onclick="showMessage()">Click for a Special Message</button>
+    <p id="specialMessage" style="display: none; font-size: 1.2rem; margin-top: 20px;">
+      bebe babawi po ako hindi ko kaya na mawala ka sakin :(. 💕
+    </p>
+  </div>
+
+  <script>
+    function showMessage() {
+      document.getElementById('specialMessage').style.display = 'block';
+    }
+  </script>
+</body>
+</html>
